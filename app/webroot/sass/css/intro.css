@@ -1,0 +1,25 @@
+/* line 1, ../sass/intro.scss */
+#intro {
+  background-color: #36D9C3;
+}
+
+/* line 4, ../sass/intro.scss */
+.jumbotron {
+  background-color: transparent;
+}
+
+/* line 8, ../sass/intro.scss */
+.jumbotron h1, .jumbotron p {
+  font-family: 'Roboto Slab',serif;
+}
+
+/* line 12, ../sass/intro.scss */
+#intro .container {
+  max-width: 100%;
+}
+
+/* line 16, ../sass/intro.scss */
+#intro .jumbotron h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
