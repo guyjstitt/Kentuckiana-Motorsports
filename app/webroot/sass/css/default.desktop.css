@@ -92,7 +92,7 @@ a.control_prevSlide {
   position: absolute;
   cursor: pointer;
   display: block;
-  background: url(app/webroot/images/a13.png) center center no-repeat;
+  background: url(../img/a13.png) center center no-repeat;
   overflow: hidden;
   background-position: -10px -33px;
 }
@@ -108,7 +108,7 @@ a.control_nextSlide {
   position: absolute;
   cursor: pointer;
   display: block;
-  background: url(app/webroot/images/a13.png) center center no-repeat;
+  background: url(../img/a13.png) center center no-repeat;
   overflow: hidden;
   background-position: -55px -33px;
 }
