@@ -78,7 +78,7 @@
                                         <div>
                                           <h3>Follow Us</h3>
                                           <ul class="footLinks">
-                                            <li><a class="fbFollow" target="_blank" href=""><img src="/app/webroot/images/fb-logo.png"></a></li>
+                                            <li><a class="fbFollow" target="_blank" href=""><img src="app/webroot/sass/img/fb-logo.png"></a></li>
                                           </ul>
                                         </div> 
                                       </div>
