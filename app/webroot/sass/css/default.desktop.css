@@ -180,12 +180,10 @@ a.control_nextSlide {
 .railContent {
   display: block;
   position: relative;
-  width: 100%;
   height: 100%;
-  border: 1px solid white;
 }
 
-/* line 36, ../sass/_home.scss */
+/* line 34, ../sass/_home.scss */
 .contact {
   position: absolute;
   top: 5px;
@@ -196,7 +194,7 @@ a.control_nextSlide {
   text-align: left;
 }
 
-/* line 46, ../sass/_home.scss */
+/* line 44, ../sass/_home.scss */
 .address {
   position: absolute;
   top: 5px;
@@ -207,44 +205,44 @@ a.control_nextSlide {
   text-align: right;
 }
 
-/* line 56, ../sass/_home.scss */
+/* line 54, ../sass/_home.scss */
 .divider {
   width: 100%;
   height: 20px;
   background-color: black;
 }
 
-/* line 62, ../sass/_home.scss */
+/* line 60, ../sass/_home.scss */
 .mainDisplay {
   width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 68, ../sass/_home.scss */
+/* line 66, ../sass/_home.scss */
 .mainDisplay img {
   width: 100%;
 }
 
-/* line 72, ../sass/_home.scss */
+/* line 70, ../sass/_home.scss */
 .subDisplay img {
   width: 300px;
   height: 225px;
   background-size: 100%;
 }
 
-/* line 78, ../sass/_home.scss */
+/* line 76, ../sass/_home.scss */
 .displayContainer {
   padding: 10px;
 }
 
-/* line 82, ../sass/_home.scss */
+/* line 80, ../sass/_home.scss */
 .module ul {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 86, ../sass/_home.scss */
+/* line 84, ../sass/_home.scss */
 .module ul li {
   float: left;
   width: 50%;
@@ -252,7 +250,7 @@ a.control_nextSlide {
   margin-bottom: 10px;
 }
 
-/* line 93, ../sass/_home.scss */
+/* line 91, ../sass/_home.scss */
 .col-md-2 {
   position: relative;
   width: 33%;
@@ -260,57 +258,57 @@ a.control_nextSlide {
   padding-right: 5px;
 }
 
-/* line 100, ../sass/_home.scss */
+/* line 98, ../sass/_home.scss */
 .module {
   border-top: 1px solid #eee;
 }
 
-/* line 106, ../sass/_home.scss */
+/* line 104, ../sass/_home.scss */
 .imageModule ul {
   list-style: none;
   float: left;
 }
 
-/* line 111, ../sass/_home.scss */
+/* line 109, ../sass/_home.scss */
 .img-responsive {
   width: 100%;
 }
 
-/* line 115, ../sass/_home.scss */
+/* line 113, ../sass/_home.scss */
 .slide {
   cursor: pointer;
   position: relative;
 }
 
-/* line 120, ../sass/_home.scss */
+/* line 118, ../sass/_home.scss */
 .slideHeader {
   color: white;
   font-size: 15pt;
 }
 
-/* line 125, ../sass/_home.scss */
+/* line 123, ../sass/_home.scss */
 .slideMessage {
   color: white;
   font-size: 9pt;
 }
 
-/* line 130, ../sass/_home.scss */
+/* line 128, ../sass/_home.scss */
 .relative {
   position: relative;
 }
 
-/* line 134, ../sass/_home.scss */
+/* line 132, ../sass/_home.scss */
 .tiles {
   max-width: 700px;
   margin: 0 auto;
 }
 
-/* line 139, ../sass/_home.scss */
+/* line 137, ../sass/_home.scss */
 .tiles img {
   max-height: 227px;
 }
 
-/* line 143, ../sass/_home.scss */
+/* line 141, ../sass/_home.scss */
 .slideContent {
   position: absolute;
   bottom: 0;
@@ -318,7 +316,7 @@ a.control_nextSlide {
   transition: bottom 0.5s ease;
 }
 
-/* line 150, ../sass/_home.scss */
+/* line 148, ../sass/_home.scss */
 .gradient {
   -webkit-box-shadow: inset 0 0 10px #000000;
   box-shadow: inset 0 0 10px #000000;
@@ -337,7 +335,7 @@ a.control_nextSlide {
   transition: all .2s ease;
 }
 
-/* line 168, ../sass/_home.scss */
+/* line 166, ../sass/_home.scss */
 .overlay {
   z-index: 9;
   width: 100%;
@@ -345,10 +343,15 @@ a.control_nextSlide {
   position: absolute;
 }
 
-/* line 175, ../sass/_home.scss */
+/* line 173, ../sass/_home.scss */
 .subContent {
   margin: 0 auto;
   max-width: 1000px;
+}
+
+/* line 178, ../sass/_home.scss */
+.railContent {
+  min-width: 188px;
 }
 
 /* line 4, ../sass/default.desktop.scss */

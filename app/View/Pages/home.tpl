@@ -104,27 +104,27 @@
 				 <div class="railContent">
 				 	<h3 class='headerText'>Random</h3>
 					<ul>
-					    <li ng-if="item.Rail.subHeaderOne != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefOne}}"></a></li>
-						<li ng-if="item.Rail.subHeaderTwo != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefTwo}}"></a></li>
-						<li ng-if="item.Rail.subHeaderThree != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefThree}}"></a></li>
-						<li ng-if="item.Rail.subHeaderFour != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefFour}}"></a></li>
-						<li ng-if="item.Rail.subHeaderFive != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefFive}}"></a></li>
+					    <li ng-if="item.Rail.subHeaderOne != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefOne}}"></a></li>
+						<li ng-if="item.Rail.subHeaderTwo != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefTwo}}"></a></li>
+						<li ng-if="item.Rail.subHeaderThree != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefThree}}"></a></li>
+						<li ng-if="item.Rail.subHeaderFour != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefFour}}"></a></li>
+						<li ng-if="item.Rail.subHeaderFive != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefFive}}"></a></li>
 					</ul>
 					<h3 class='headerText'>Random</h3>
 					<ul>
-					     <li ng-if="item.Rail.subHeaderOne != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefOne}}"></a></li>
-						<li ng-if="item.Rail.subHeaderTwo != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefTwo}}"></a></li>
-						<li ng-if="item.Rail.subHeaderThree != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefThree}}"></a></li>
-						<li ng-if="item.Rail.subHeaderFour != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefFour}}"></a></li>
-						<li ng-if="item.Rail.subHeaderFive != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefFive}}"></a></li>
+					     <li ng-if="item.Rail.subHeaderOne != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefOne}}"></a></li>
+						<li ng-if="item.Rail.subHeaderTwo != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefTwo}}"></a></li>
+						<li ng-if="item.Rail.subHeaderThree != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefThree}}"></a></li>
+						<li ng-if="item.Rail.subHeaderFour != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefFour}}"></a></li>
+						<li ng-if="item.Rail.subHeaderFive != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefFive}}"></a></li>
 					</ul>
 					<h3 class='headerText'>Random</h3>
 					<ul>
-					     <li ng-if="item.Rail.subHeaderOne != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefOne}}"></a></li>
-						<li ng-if="item.Rail.subHeaderTwo != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefTwo}}"></a></li>
-						<li ng-if="item.Rail.subHeaderThree != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefThree}}"></a></li>
-						<li ng-if="item.Rail.subHeaderFour != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefFour}}"></a></li>
-						<li ng-if="item.Rail.subHeaderFive != ''" class="list"><span class="prefix">Lorem ipsum dolor sit amet,</span><a target="_blank" href="{{item.Rail.hrefFive}}"></a></li>
+					     <li ng-if="item.Rail.subHeaderOne != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefOne}}"></a></li>
+						<li ng-if="item.Rail.subHeaderTwo != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefTwo}}"></a></li>
+						<li ng-if="item.Rail.subHeaderThree != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefThree}}"></a></li>
+						<li ng-if="item.Rail.subHeaderFour != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefFour}}"></a></li>
+						<li ng-if="item.Rail.subHeaderFive != ''" class="list"><span class="prefix">Lorem ipsum dolor</span><a target="_blank" href="{{item.Rail.hrefFive}}"></a></li>
 					</ul>
 				</div>
 			</div>
