@@ -1,5 +1,146 @@
-@import 'intro'; 
-@import 'about';
-@import 'resume';
-@import 'slider';
-@import 'scrollBackground';
+@import 'nav';
+@import 'home';
+
+body {
+	background: url(../img/carbon.jpg);
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: black;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+
+.col-md-3 {
+  float: left;
+}
+
+.logoImageFooter {
+  position: relative;
+  top:0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  max-width: 150px
+}
+
+.foot-text {
+  padding: 20px 0;
+  float: none !important;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul.footLinks {
+  list-style:  none;
+  padding-left: 0;
+  text-align: center;
+}
+
+.footContent h3, .footContentLast h3 {
+  font-size: 1.25em;
+
+}
+
+.footContent {
+ 
+  height: 100%;
+  min-height: 140px;
+    box-shadow: 1px 0 #fff;
+  border-right: 1px solid #c7c7c7;
+}
+
+.footContentFirst {
+   height: 100%;
+  min-height: 140px;
+    box-shadow: 1px 0 #fff;
+  border-right: 1px solid #c7c7c7;
+}
+
+.footContentLast {
+    height: 100%;
+  min-height: 140px;
+}
+
+.mainFootContent {
+
+}
+div .footContent:first-of-type {
+  
+}
+
+@media (max-width: 450px) {
+  .footContent h3, .footContentLast h3 {
+    font-size: .90em;
+    text-align: left;
+  }
+}
+
+.fbFollow {
+    width: 40%;
+    height: auto;
+    min-width: 30px;
+}
+
+.fbFollow img {
+    width: 40px;
+    height: auto;
+}
+
+.logoImageFooter {
+
+}

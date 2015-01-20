@@ -1,430 +1,497 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
-/* line 1, ../sass/_intro.scss */
-#intro {
-  background-color: #36D9C3;
+/* line 1, ../sass/_nav.scss */
+.header {
+  margin-top: 40px;
 }
 
-/* line 4, ../sass/_intro.scss */
-.jumbotron {
-  background-color: transparent;
+/* line 5, ../sass/_nav.scss */
+.nav-tabs {
+  border-bottom: 0;
 }
 
-/* line 8, ../sass/_intro.scss */
-.jumbotron h1, .jumbotron p {
-  font-family: 'Roboto Slab',serif;
-}
-
-/* line 12, ../sass/_intro.scss */
-#intro .container {
-  max-width: 100%;
-}
-
-/* line 16, ../sass/_intro.scss */
-#intro .jumbotron h1 {
-  font-size: 4em;
-  font-weight: bold;
-}
-
-/* line 2, ../sass/_about.scss */
-.wid {
-  margin-top: 80px;
-}
-
-/* line 5, ../sass/_about.scss */
-.thumbnail {
-  border: none;
-  background-color: transparent;
-}
-
-/* line 10, ../sass/_about.scss */
-.aboutHeader h2, .aboutHeader p {
-  text-align: center;
-}
-
-/* line 14, ../sass/_about.scss */
-.caption {
-  text-align: center;
-}
-
-/* line 17, ../sass/_about.scss */
-.aboutHeader h2 {
-  opacity: 0;
-  transform: scale(0.5);
-  -webkit-transform: scale(0.5);
-  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.17, 0.89, 0.67, 1.57), opacity 0.6s ease-out;
-  transition: transform 0.6s cubic-bezier(0.17, 0.89, 0.67, 1.57), opacity 0.6s ease-out;
-}
-
-/* line 25, ../sass/_about.scss */
-.aboutHeader h2.in {
-  opacity: 1;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-}
-
-/* line 31, ../sass/_about.scss */
-.caption h3 {
-  font-family: 'Roboto Slab',serif;
-}
-
-/* line 34, ../sass/_about.scss */
-.caption p {
-  font-family: sans-serif;
-}
-
-/* line 38, ../sass/_about.scss */
-.scrollimation.fadeUp {
-  opacity: 0;
-  transform: translateY(100px);
-  -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.17, 0.89, 0.67, 1.57), opacity 0.6s ease-out;
-  transition: transform 0.6s cubic-bezier(0.17, 0.89, 0.67, 1.57), opacity 0.6s ease-out;
-}
-
-/* line 45, ../sass/_about.scss */
-.scrollimation.fadeUp.in {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* line 50, ../sass/_about.scss */
-.scrollimation.i1 {
-  transition-delay: 0.1s;
-}
-
-/* line 54, ../sass/_about.scss */
-.scrollimation.i2 {
-  transition-delay: 0.3s;
-}
-
-/* line 58, ../sass/_about.scss */
-.scrollimation.i3 {
-  transition-delay: 0.5s;
-}
-
-/* line 62, ../sass/_about.scss */
-.scrollimation.i4 {
-  transition-delay: 0.7s;
-}
-
-/* CSS for Aboutme.tpl*/
-/* line 68, ../sass/_about.scss */
-.profilePic {
-  position: relative;
-  border-radius: 105%;
-  border: 1px solid black;
-  overflow: hidden;
-  padding: 125px;
-  width: auto;
-  max-width: 250px;
-  /* max-height: 400px; */
-  background: url("../img/profile2.jpg");
-  background-position: 0px -17px, center;
-  margin: 0 auto;
-  /* transform: scale(0.5); */
-  background-size: cover;
-}
-
-/* line 84, ../sass/_about.scss */
-.profilePic.scrollimation {
-  opacity: 0;
-  transform: translateX(-1000px);
-  transition: transform 0.6s cubic-bezier(0.17, 0.89, 0.67, 1.57), opacity 0.6s ease-out;
-}
-
-/* line 90, ../sass/_about.scss */
-.profilePic.scrollimation.in {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-/* line 95, ../sass/_about.scss */
-.aboutMe h2 {
-  color: white;
-  text-align: center;
-}
-
-/* line 100, ../sass/_about.scss */
-.aboutP p {
-  text-align: center;
-  font-family: sans-serif;
-  color: white;
-}
-
-/* line 4, ../sass/_resume.scss */
-.skillbar {
-  position: relative;
-  display: block;
-  margin-bottom: 15px;
+/* line 1, ../sass/_carousel.scss */
+.slide1 {
+  height: 450px;
+  background: url(../img/louisvillecompress.jpg);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
   width: 100%;
-  background: #eee;
-  height: 35px;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -webkit-transition: 0.4s linear;
-  -moz-transition: 0.4s linear;
-  -ms-transition: 0.4s linear;
-  -o-transition: 0.4s linear;
-  transition: 0.4s linear;
-  -webkit-transition-property: width, background-color;
-  -moz-transition-property: width, background-color;
-  -ms-transition-property: width, background-color;
-  -o-transition-property: width, background-color;
-  transition-property: width, background-color;
+  background-size: cover;
+  background-position: center;
+  -ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
 }
 
-/* line 26, ../sass/_resume.scss */
-.skillbar-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 110px;
-  font-weight: bold;
-  font-size: 13px;
-  color: #ffffff;
-  background: #6adcfa;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+/* line 16, ../sass/_carousel.scss */
+.slide2 {
+  height: 450px;
+  background: url(../img/louisvillecompress.jpg);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  -ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
 }
 
-/* line 43, ../sass/_resume.scss */
-.skillbar-title span {
-  display: block;
-  background: rgba(0, 0, 0, 0.1);
-  padding: 0 20px;
-  height: 35px;
-  line-height: 35px;
-  -webkit-border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+/* line 31, ../sass/_carousel.scss */
+.slide3 {
+  height: 450px;
+  background: url(../img/louisvillecompress.jpg);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(59%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65))), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%), url("/app/webroot/images/louisvillecompress.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  -ms-behavior: url("/app/webroot/images/backgroundsize.min.htc");
 }
 
-/* line 57, ../sass/_resume.scss */
-.skillbar-bar {
-  height: 35px;
-  width: 0px;
-  background: #6adcfa;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-}
-
-/* line 66, ../sass/_resume.scss */
-.skill-bar-percent {
-  position: absolute;
-  right: 10px;
-  top: 0;
-  font-size: 11px;
-  height: 35px;
-  line-height: 35px;
-  color: #ffffff;
-  color: rgba(0, 0, 0, 0.4);
-}
-
-/* line 77, ../sass/_resume.scss */
-h2.skills {
-  text-align: center;
-  margin-bottom: 80px;
-}
-
-/* line 82, ../sass/_resume.scss */
-section h3 {
-  font-weight: bold;
-}
-
-/* line 3, ../sass/_slider.scss */
-html {
-  border-top: 5px solid #fff;
-  background: #58DDAF;
-  color: #2a2a2a;
-}
-
-/* line 9, ../sass/_slider.scss */
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans';
-}
-
-/* line 15, ../sass/_slider.scss */
-h1 {
-  color: #fff;
-  text-align: left;
-  font-weight: 300;
-}
-
-/* line 21, ../sass/_slider.scss */
-#slider {
+/* line 45, ../sass/_carousel.scss */
+.slider {
   position: relative;
-  top: 0;
+  width: 100%;
   overflow: hidden;
-  border-radius: 4px;
 }
 
-/* line 28, ../sass/_slider.scss */
-#slider ul {
+/* line 50, ../sass/_carousel.scss */
+.slideContainer ul {
+  height: 450px;
   position: relative;
   margin: 0;
   padding: 0;
-  height: 200px;
   list-style: none;
 }
 
-/* line 36, ../sass/_slider.scss */
-#slider ul li {
+/* line 58, ../sass/_carousel.scss */
+.slideContainer ul li {
   position: relative;
-  display: block;
   float: left;
+  display: block;
   margin: 0;
   padding: 0;
-  width: 500px;
-  height: 300px;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
 }
 
-/* line 49, ../sass/_slider.scss */
-a.control_prev, a.control_next {
+/* line 66, ../sass/_carousel.scss */
+a.control_prevSlide {
+  z-index: 4;
+  width: 55px;
+  height: 55px;
+  top: 225px;
+  left: 0;
+  margin-top: -27.5px;
   position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
   cursor: pointer;
-}
-
-/* line 66, ../sass/_slider.scss */
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-/* line 71, ../sass/_slider.scss */
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-/* line 75, ../sass/_slider.scss */
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
-}
-
-/* line 80, ../sass/_slider.scss */
-.slider_option {
-  position: relative;
-  margin: 10px auto;
-  width: 160px;
-  font-size: 18px;
-}
-
-/* line 87, ../sass/_slider.scss */
-.macbookScreen {
-  position: absolute;
-  top: 13%;
-  left: 15.2%;
-  width: 73.5%;
-  height: 92%;
-}
-
-/* line 95, ../sass/_slider.scss */
-.macbookFrame {
-  position: absolute;
-  margin: 0 auto;
-  max-width: 610px;
-  top: 0;
-  width: 100%;
-}
-
-/*
-.slider img {
-	max-width: 610px;
-}
-
-.item	{
-	max-width: 450px;
-}
-*/
-/* line 112, ../sass/_slider.scss */
-#intro .jumbotron h1 {
-  -webkit-transform: translateX(-1000px);
-  transform: translateX(-1000px);
-  opacity: 0;
-  transition: opacity .5s ease-out .3s,transform .5s ease-out .3s;
-  -webkit-transition: opacity .5s ease-out .3s,transform .5s ease-out .3s;
-}
-
-/* line 120, ../sass/_slider.scss */
-#intro .jumbotron p {
-  opacity: 0;
-  -webkit-transform: translateY(1000px);
-  transform: translateY(1000px);
-  -webkit-transition: opacity .5s ease-out .8s,-webkit-transform .5s ease-out .8s;
-  transition: opacity .5s ease-out .8s,transform .5s ease-out .8s;
-}
-
-/* line 128, ../sass/_slider.scss */
-#intro .jumbotron .slider {
-  -webkit-transform: translateX(1000px);
-  transform: translateX(1000px);
-  -webkit-transition: opacity .5s ease-out .6s,-webkit-transform .5s ease-out .6s;
-  transition: opacity .5s ease-out .6s,transform .5s ease-out .6s;
-}
-
-/* line 135, ../sass/_slider.scss */
-#intro .jumbotron h1.in {
-  opacity: 1;
-  transform: translateX(0px);
-  -webkit-transform: translateX(0px);
-}
-
-/* line 141, ../sass/_slider.scss */
-#intro .jumbotron p.in {
-  opacity: 1;
-  transform: translateY(0px);
-  -webkit-transform: translateY(0px);
-}
-
-/* line 147, ../sass/_slider.scss */
-#intro .jumbotron .slider.in {
-  transform: translateX(0px);
-  -webkit-transform: translateX(0px);
-}
-
-/* line 1, ../sass/_scrollBackground.scss */
-.picture {
-  position: relative;
-  border: 1px solid black;
+  display: block;
+  background: url(/app/webroot/images/a13.png) center center no-repeat;
   overflow: hidden;
-  height: 500px;
-  width: 100%;
-  max-height: 700px;
-  background: url("../assets/uofl.jpg");
-  background-position: 0px -800px, center;
-  margin: 0 auto;
-  /* transform: scale(0.5); */
-  background-size: cover;
+  background-position: -10px -33px;
 }
 
-@media (max-width: 768px) {
-  /* line 16, ../sass/_scrollBackground.scss */
-  #picture .picture {
-    background-position: center !important;
+/* line 82, ../sass/_carousel.scss */
+a.control_nextSlide {
+  z-index: 4;
+  width: 55px;
+  height: 55px;
+  top: 225px;
+  margin-top: -27.5px;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  background: url(/app/webroot/images/a13.png) center center no-repeat;
+  overflow: hidden;
+  background-position: -55px -33px;
+}
+
+/* line 1, ../sass/_featured.scss */
+.feature {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+}
+
+/* line 9, ../sass/_featured.scss */
+.featureContainer {
+  height: 100%;
+  position: relative;
+}
+
+/* line 14, ../sass/_featured.scss */
+.feature ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 20, ../sass/_featured.scss */
+.feature ul li {
+  width: 200px;
+  height: 200px;
+  margin: 0 3px;
+  float: left;
+}
+
+/* line 27, ../sass/_featured.scss */
+.feature ul li img.featureImg {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+/* line 4, ../sass/_home.scss */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background-color: white;
+}
+
+/* line 11, ../sass/_home.scss */
+.logo {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background: url(../img/biker-logo.png) no-repeat;
+  background-size: 100%;
+}
+
+/* line 19, ../sass/_home.scss */
+.homeContent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+/* line 27, ../sass/_home.scss */
+.railContent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid white;
+}
+
+/* line 36, ../sass/_home.scss */
+.contact {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 300px;
+  height: 100px;
+  color: black;
+  text-align: left;
+}
+
+/* line 46, ../sass/_home.scss */
+.address {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 300px;
+  height: 100px;
+  color: black;
+  text-align: right;
+}
+
+/* line 56, ../sass/_home.scss */
+.divider {
+  width: 100%;
+  height: 20px;
+  background-color: black;
+}
+
+/* line 62, ../sass/_home.scss */
+.mainDisplay {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 68, ../sass/_home.scss */
+.mainDisplay img {
+  width: 100%;
+}
+
+/* line 72, ../sass/_home.scss */
+.subDisplay img {
+  width: 300px;
+  height: 225px;
+  background-size: 100%;
+}
+
+/* line 78, ../sass/_home.scss */
+.displayContainer {
+  padding: 10px;
+}
+
+/* line 82, ../sass/_home.scss */
+.module ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 86, ../sass/_home.scss */
+.module ul li {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 93, ../sass/_home.scss */
+.col-md-2 {
+  position: relative;
+  width: 33%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 100, ../sass/_home.scss */
+.module {
+  border-top: 1px solid #eee;
+}
+
+/* line 106, ../sass/_home.scss */
+.imageModule ul {
+  list-style: none;
+  float: left;
+}
+
+/* line 111, ../sass/_home.scss */
+.img-responsive {
+  width: 100%;
+}
+
+/* line 115, ../sass/_home.scss */
+.slide {
+  cursor: pointer;
+  position: relative;
+}
+
+/* line 120, ../sass/_home.scss */
+.slideHeader {
+  color: white;
+  font-size: 15pt;
+}
+
+/* line 125, ../sass/_home.scss */
+.slideMessage {
+  color: white;
+  font-size: 9pt;
+}
+
+/* line 130, ../sass/_home.scss */
+.relative {
+  position: relative;
+}
+
+/* line 134, ../sass/_home.scss */
+.tiles {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* line 139, ../sass/_home.scss */
+.tiles img {
+  max-height: 227px;
+}
+
+/* line 143, ../sass/_home.scss */
+.slideContent {
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  transition: bottom 0.5s ease;
+}
+
+/* line 150, ../sass/_home.scss */
+.gradient {
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 53%, rgba(0, 0, 0, 0.65) 78%, rgba(0, 0, 0, 0.65) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(13%, rgba(0, 0, 0, 0)), color-stop(53%, rgba(0, 0, 0, 0)), color-stop(78%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0.65)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 53%, rgba(0, 0, 0, 0.65) 78%, rgba(0, 0, 0, 0.65) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 53%, rgba(0, 0, 0, 0.65) 78%, rgba(0, 0, 0, 0.65) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 53%, rgba(0, 0, 0, 0.65) 78%, rgba(0, 0, 0, 0.65) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 13%, rgba(0, 0, 0, 0) 53%, rgba(0, 0, 0, 0.65) 78%, rgba(0, 0, 0, 0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+  transition: all .2s ease;
+}
+
+/* line 168, ../sass/_home.scss */
+.overlay {
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 175, ../sass/_home.scss */
+.subContent {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* line 4, ../sass/default.desktop.scss */
+body {
+  background: url(../img/carbon.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+/* line 10, ../sass/default.desktop.scss */
+h1 {
+  color: black;
+}
+
+/* line 14, ../sass/default.desktop.scss */
+h2 {
+  color: black;
+}
+
+/* line 18, ../sass/default.desktop.scss */
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/* line 26, ../sass/default.desktop.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 30, ../sass/default.desktop.scss */
+body {
+  /* Margin bottom by footer height */
+}
+
+/* line 34, ../sass/default.desktop.scss */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100%;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/* line 52, ../sass/default.desktop.scss */
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* line 56, ../sass/default.desktop.scss */
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 61, ../sass/default.desktop.scss */
+code {
+  font-size: 80%;
+}
+
+/* line 67, ../sass/default.desktop.scss */
+.col-md-3 {
+  float: left;
+}
+
+/* line 71, ../sass/default.desktop.scss */
+.logoImageFooter {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  max-width: 150px;
+}
+
+/* line 81, ../sass/default.desktop.scss */
+.foot-text {
+  padding: 20px 0;
+  float: none !important;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 88, ../sass/default.desktop.scss */
+ul.footLinks {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+
+/* line 94, ../sass/default.desktop.scss */
+.footContent h3, .footContentLast h3 {
+  font-size: 1.25em;
+}
+
+/* line 99, ../sass/default.desktop.scss */
+.footContent {
+  height: 100%;
+  min-height: 140px;
+  box-shadow: 1px 0 #fff;
+  border-right: 1px solid #c7c7c7;
+}
+
+/* line 107, ../sass/default.desktop.scss */
+.footContentFirst {
+  height: 100%;
+  min-height: 140px;
+  box-shadow: 1px 0 #fff;
+  border-right: 1px solid #c7c7c7;
+}
+
+/* line 114, ../sass/default.desktop.scss */
+.footContentLast {
+  height: 100%;
+  min-height: 140px;
+}
+
+@media (max-width: 450px) {
+  /* line 127, ../sass/default.desktop.scss */
+  .footContent h3, .footContentLast h3 {
+    font-size: .90em;
+    text-align: left;
   }
+}
+/* line 133, ../sass/default.desktop.scss */
+.fbFollow {
+  width: 40%;
+  height: auto;
+  min-width: 30px;
+}
+
+/* line 139, ../sass/default.desktop.scss */
+.fbFollow img {
+  width: 40px;
+  height: auto;
 }
